@@ -1,3 +1,10 @@
+# prompts
+prompts/
+files_dump.txt
+
+# specs
+openapi-specs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

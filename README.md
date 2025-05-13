@@ -90,17 +90,37 @@ beginDialog:
 
 > *Step 1 → (already scripted/completed – keep for reference)*
 
+# Generating the code for the specs
+
+## Directline v3 API
+
+Use https://converter.swagger.io/#/Converter/convertByUrl to convert the Connector spec here: `https://raw.githubusercontent.com/microsoft/botframework-sdk/main/specs/botframework-protocol/directline-3.0.json`
+
 ```bash
-pip install openapi-python-client
+MSYS_NO_PATHCONV=1 docker run --rm \
+  --user "$(id -u):$(id -g)" \
+  -v "${PWD}:/local" \
+  openapitools/openapi-generator-cli generate \
+    -i /local/openapi-specs/direct-line-3.0.json \
+    -g python \
+    -o /local/directline-lib \
+    --additional-properties "packageName=direct-line,projectName=direct-line,usePydanticV2=true"
+```
 
-curl -o directline-client.json \
-  https://raw.githubusercontent.com/microsoft/botframework-sdk/main/specs/botframework-protocol/directline-3.0.json
+```bash
+pip install -e ./directline-lib
+```
 
-npx swagger2openapi directline-client.json -o directline-client.json
-python scripts/process_openapi_for_json_requests.py
-openapi-python-client generate --path directline-client.json --output-path ./directline_client
+---
 
-rm directline-client.json
+
+## Connector API
+
+Use https://converter.swagger.io/#/Converter/convertByUrl to convert the Connector spec here: `https://raw.githubusercontent.com/Microsoft/botbuilder-dotnet/main/libraries/Swagger/ConnectorAPI.json`
+
+# Generate a Python client (Pydantic v2) from ConnectorAPISpec.json
+
+TBC
 ```
 
 > *Step 2* → Open the repo in a **Dev Container** - this will automatically install the directline-client library (Automatically running `pip install -e ./directline_library` at the project root.`)

@@ -1,0 +1,537 @@
+[
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000000",
+        "timestamp": "2025-05-13T06:40:59.2162053Z",
+        "serviceUrl": "https://directline.botframework.com/",
+        "channelId": "directline",
+        "from": {
+          "id": "93152d37-016d-4fc1-bfea-4776d633c1b6"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "recipient": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9@BgLoquZzQf61FwhictbIX8YHGr8nOPQ6ed97CplUknTAFfuKnR85JQQJ99BDACZoyfiAArohAAABAZBS3jB0",
+          "name": "Playground"
+        },
+        "locale": "en-AU",
+        "value": {
+          "user_first_name": "John",
+          "user_last_name": "Doe",
+          "user_email": "John.doe@hotmail.com",
+          "current_page_url": "https://examplebank.com/credit-cards/fees-and-charges",
+          "page_title": "Compare Credit Cards – Example Bank",
+          "element_clicked_to_initiate_chat": "#cc-help-chat",
+          "device_type": "desktop",
+          "device": "macOS 14 / Safari 17.0",
+          "viewport_width": 1440,
+          "viewport_height": 900,
+          "connection_type": "wifi",
+          "visit_start_time": "2025-05-13T06:40:30.776792+00:00",
+          "last_conversation_time": null,
+          "user_id": "93152d37-016d-4fc1-bfea-4776d633c1b6",
+          "language": "en",
+          "timezone": "Australia/Brisbane",
+          "local_time": "2025-05-13T06:40:30.776792+00:00",
+          "location": {
+            "country": "Australia",
+            "region": "Queensland",
+            "city": "Brisbane",
+            "latitude": -27.4679,
+            "longitude": 153.0281
+          },
+          "marketing_opt_in": true,
+          "app_version": "web-2.19.7",
+          "widget_version": "chat-1.4.2",
+          "navigation_history": [
+            {
+              "order": 1,
+              "element": "#cc-fee-details"
+            },
+            {
+              "order": 2,
+              "element": "#cc-interest-rate-tab"
+            },
+            {
+              "order": 3,
+              "element": "#cc-faq-interest-free"
+            },
+            {
+              "order": 4,
+              "element": "#cc-faq-annual-fee"
+            },
+            {
+              "order": 5,
+              "element": "#cc-compare-nav"
+            },
+            {
+              "order": 6,
+              "element": "#cc-terms-download"
+            },
+            {
+              "order": 7,
+              "element": "#filter-balance-transfer"
+            },
+            {
+              "order": 8,
+              "element": "#cc-rewards-explainer"
+            },
+            {
+              "order": 9,
+              "element": "#cc-signup-bonus"
+            },
+            {
+              "order": 10,
+              "element": "#cc-recalculate-limit"
+            },
+            {
+              "order": 11,
+              "element": "#main-nav-creditcards"
+            },
+            {
+              "order": 12,
+              "element": "#hero-cta-learn-more"
+            }
+          ]
+        },
+        "name": "setConversationContext"
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "timestamp": "2025-05-13T06:40:59.7318918Z",
+        "serviceUrl": "https://directline.botframework.com/",
+        "channelId": "directline",
+        "from": {
+          "id": "93152d37-016d-4fc1-bfea-4776d633c1b6"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "recipient": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9@BgLoquZzQf61FwhictbIX8YHGr8nOPQ6ed97CplUknTAFfuKnR85JQQJ99BDACZoyfiAArohAAABAZBS3jB0",
+          "name": "Playground"
+        },
+        "locale": "en-AU",
+        "text": "What page did we start this chat in?"
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000002",
+        "timestamp": "2025-05-13T06:41:00.5491508Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "textFormat": "markdown",
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "Context received ➜ Just to prove it. This is the page you opened this chat bot on: https://examplebank.com/credit-cards/fees-and-charges and you selected this element on that page to open this chat: #cc-help-chat",
+        "inputHint": "acceptingInput",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000000",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "2"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000003",
+        "timestamp": "2025-05-13T06:41:01.9009747Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "DynamicPlanReceived",
+        "value": {
+          "steps": [
+            "P:UniversalSearchTool"
+          ],
+          "isFinalPlan": false,
+          "planIdentifier": "326bdd23-2043-4cf9-80c1-682d683b4aed",
+          "toolDefinitions": []
+        },
+        "name": "DynamicPlanReceived",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "3"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000004",
+        "timestamp": "2025-05-13T06:41:02.3365818Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "DynamicPlanReceivedDebug",
+        "value": {
+          "summary": "",
+          "ask": "What page did we start this chat in?",
+          "planIdentifier": "326bdd23-2043-4cf9-80c1-682d683b4aed",
+          "isFinalPlan": false
+        },
+        "name": "DynamicPlanReceivedDebug",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "4"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000005",
+        "timestamp": "2025-05-13T06:41:02.7821587Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "DynamicPlanStepTriggered",
+        "value": {
+          "planIdentifier": "326bdd23-2043-4cf9-80c1-682d683b4aed",
+          "stepId": "591e0c28-c55e-47b6-a760-450367df049d",
+          "taskDialogId": "P:UniversalSearchTool",
+          "thought": "force UST",
+          "state": "inProgress",
+          "hasRecommendations": false,
+          "type": "KnowledgeSource"
+        },
+        "name": "DynamicPlanStepTriggered",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "5"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000006",
+        "timestamp": "2025-05-13T06:41:03.1959743Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "DynamicPlanStepBindUpdate",
+        "value": {
+          "taskDialogId": "P:UniversalSearchTool",
+          "stepId": "591e0c28-c55e-47b6-a760-450367df049d",
+          "arguments": {
+            "search_query": "What page did we start this chat in?",
+            "search_keywords": null
+          },
+          "planIdentifier": "326bdd23-2043-4cf9-80c1-682d683b4aed"
+        },
+        "name": "DynamicPlanStepBindUpdate",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "6"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000007",
+        "timestamp": "2025-05-13T06:41:04.0650654Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "UniversalSearchToolTraceData",
+        "value": {
+          "toolId": "P:UniversalSearchTool",
+          "knowledgeSources": [
+            "BingUnscopedSearchKnowledge"
+          ],
+          "outputKnowledgeSources": [],
+          "fullResults": [],
+          "filteredResults": []
+        },
+        "name": "UniversalSearchToolTraceData",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "7"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000008",
+        "timestamp": "2025-05-13T06:41:04.5190679Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "DynamicPlanStepFinished",
+        "value": {
+          "taskDialogId": "P:UniversalSearchTool",
+          "stepId": "591e0c28-c55e-47b6-a760-450367df049d",
+          "observation": {
+            "search_result": {
+              "Text": {
+                "CitationSources": [
+                  {
+                    "Id": "https://chatgpt.com/",
+                    "Name": "ChatGPT",
+                    "Text": "ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.",
+                    "Type": "Unknown",
+                    "Url": "https://chatgpt.com/"
+                  }
+                ],
+                "Content": "You started this chat on the **Compare Credit Cards** page of Example Bank [1].",
+                "MarkdownContent": "You started this chat on the **Compare Credit Cards** page of Example Bank [1].\n\n[1]: https://chatgpt.com/ \"ChatGPT\""
+              }
+            }
+          },
+          "planUsedOutputs": {},
+          "planIdentifier": "326bdd23-2043-4cf9-80c1-682d683b4aed",
+          "state": "completed",
+          "hasRecommendations": false
+        },
+        "name": "DynamicPlanStepFinished",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "8"
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000009",
+        "timestamp": "2025-05-13T06:41:04.955316Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "textFormat": "markdown",
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "You started this chat on the **Compare Credit Cards** page of Example Bank.",
+        "inputHint": "acceptingInput",
+        "attachments": [],
+        "entities": [
+          {
+            "type": "https://schema.org/Message",
+            "citation": [],
+            "@type": "Message",
+            "@id": "",
+            "additionalType": [
+              "AIGeneratedContent"
+            ],
+            "@context": "https://schema.org"
+          }
+        ],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "9"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000010",
+        "timestamp": "2025-05-13T06:41:05.4015471Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "valueType": "DynamicPlanFinished",
+        "value": {
+          "planId": "f837c9f2-a298-4be2-851f-bd4142dee0a8"
+        },
+        "name": "DynamicPlanFinished",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "10"
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6iV4cRP9Yni27GP2twexM5-au|0000011",
+        "timestamp": "2025-05-13T06:41:05.8260599Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6iV4cRP9Yni27GP2twexM5-au"
+        },
+        "textFormat": "markdown",
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "Did that answer your question?",
+        "inputHint": "acceptingInput",
+        "suggestedActions": {
+          "to": [],
+          "actions": [
+            {
+              "type": "imBack",
+              "title": "Yes",
+              "text": "Yes",
+              "value": "Yes"
+            },
+            {
+              "type": "imBack",
+              "title": "No",
+              "text": "No",
+              "value": "No"
+            }
+          ]
+        },
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6iV4cRP9Yni27GP2twexM5-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "11"
+  }
+]

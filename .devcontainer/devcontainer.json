@@ -2,39 +2,17 @@
 	"name": "Python 3",
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.10-bookworm",
 	"features": {
-		"ghcr.io/jpawlowski/devcontainer-features/cli-microsoft365:1": {}
+		"ghcr.io/jpawlowski/devcontainer-features/cli-microsoft365:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker": {}
 	},
-	"postCreateCommand": "pip install -r requirements.txt && pip install -e ./directline_client",
 	"customizations": {
 		"vscode": {
-			"extensions": [
-				"weidawang.quick-python-print"
-			],
 			"settings": {
 				"python.envFile": "${workspaceFolder}/.env",
 				"editor.inlayHints.enabled": "on",
 				"python.analysis.inlayHints.variableTypes": true,
 				"python.analysis.inlayHints.functionReturnTypes": true,
-				"python.analysis.inlayHints.callArgumentNames": "all",
-				"python.analysis.aiCodeActions": {
-					"addMissingParameter": true,
-					"addMissingReturn": true,
-					"addMissingType": true,
-					"addMissingTypeVar": true,
-					"addMissingOverload": true,
-					"addMissingOverloadType": true,
-					"addMissingTypeAlias": true,
-					"addMissingTypeAliasType": true,
-					"generateDocstring": true,
-					"generateSymbol": true
-				},
-				"python.analysis.autoImportCompletions": true,
-				"python.analysis.typeCheckingMode": "basic",
-				"[python]": {
-					"editor.codeActionsOnSave": {
-						"source.fixAll.eslint": "explicit"
-					}
-				}
+				"python.analysis.inlayHints.callArgumentNames": "all"
 			}
 		}
 	}

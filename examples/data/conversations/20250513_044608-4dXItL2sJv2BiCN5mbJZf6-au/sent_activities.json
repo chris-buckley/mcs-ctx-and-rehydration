@@ -1,0 +1,26 @@
+[
+  {
+    "type": "event",
+    "channelId": "directline",
+    "from": {
+      "id": "PythonDirectLineWebSocketUser"
+    },
+    "locale": "en-AU",
+    "value": {
+      "userId": "PythonDirectLineWebSocketUser",
+      "initialContext": "new_websocket_example_fused_activityset",
+      "preferredLanguage": "en-US",
+      "isAuthenticated": false
+    },
+    "name": "initialUserData"
+  },
+  {
+    "type": "message",
+    "channelId": "directline",
+    "from": {
+      "id": "PythonDirectLineWebSocketUser"
+    },
+    "locale": "en-AU",
+    "text": "Hi bot, tell me about WebSockets and ActivitySets in Direct Line."
+  }
+]

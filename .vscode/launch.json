@@ -5,9 +5,9 @@
             "name": "Python: Conversation Activity Viewer",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/conversation_activity_viewer.py",
+            "program": "${workspaceFolder}/examples/conversation_activity_viewer.py",
             "args": [
-                "3itOZ0bgR3t2xPoqbTa7oX-eu",
+                "LkqpUZl2NfeJtJ9m24hYQX-au",
                 "--user-id=example_user_123"
             ],
             "envFile": "${workspaceFolder}/.env",

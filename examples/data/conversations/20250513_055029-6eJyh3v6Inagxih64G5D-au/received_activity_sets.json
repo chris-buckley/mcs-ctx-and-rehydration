@@ -1,0 +1,256 @@
+[
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "6eJyh3v6Inagxih64G5D-au|0000000",
+        "timestamp": "2025-05-13T05:50:32.0479713Z",
+        "serviceUrl": "https://directline.botframework.com/",
+        "channelId": "directline",
+        "from": {
+          "id": "9904647c-127a-4c77-8ecb-1581450cc34d"
+        },
+        "conversation": {
+          "id": "6eJyh3v6Inagxih64G5D-au"
+        },
+        "recipient": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9@BgLoquZzQf61FwhictbIX8YHGr8nOPQ6ed97CplUknTAFfuKnR85JQQJ99BDACZoyfiAArohAAABAZBS3jB0",
+          "name": "Playground"
+        },
+        "locale": "en-AU",
+        "value": {
+          "user_first_name": "John",
+          "user_last_name": "Doe",
+          "user_email": "John.doe@hotmail.com",
+          "current_page_url": "https://examplebank.com/credit-cards/fees-and-charges",
+          "page_title": "Compare Credit Cards – Example Bank",
+          "element_clicked_to_initiate_chat": "#cc-help-chat",
+          "device_type": "desktop",
+          "device": "macOS 14 / Safari 17.0",
+          "viewport_width": 1440,
+          "viewport_height": 900,
+          "connection_type": "wifi",
+          "visit_start_time": "2025-05-13T05:50:29.237605+00:00",
+          "last_conversation_time": null,
+          "user_id": "9904647c-127a-4c77-8ecb-1581450cc34d",
+          "is_authenticated": true,
+          "language": "en",
+          "timezone": "Australia/Brisbane",
+          "local_time": "2025-05-13T05:50:29.237605+00:00",
+          "location": {
+            "country": "Australia",
+            "region": "Queensland",
+            "city": "Brisbane",
+            "latitude": -27.4679,
+            "longitude": 153.0281
+          },
+          "marketing_opt_in": true,
+          "app_version": "web-2.19.7",
+          "widget_version": "chat-1.4.2",
+          "navigation_history": [
+            {
+              "order": 1,
+              "element": "#cc-fee-details"
+            },
+            {
+              "order": 2,
+              "element": "#cc-interest-rate-tab"
+            },
+            {
+              "order": 3,
+              "element": "#cc-faq-interest-free"
+            },
+            {
+              "order": 4,
+              "element": "#cc-faq-annual-fee"
+            },
+            {
+              "order": 5,
+              "element": "#cc-compare-nav"
+            },
+            {
+              "order": 6,
+              "element": "#cc-terms-download"
+            },
+            {
+              "order": 7,
+              "element": "#filter-balance-transfer"
+            },
+            {
+              "order": 8,
+              "element": "#cc-rewards-explainer"
+            },
+            {
+              "order": 9,
+              "element": "#cc-signup-bonus"
+            },
+            {
+              "order": 10,
+              "element": "#cc-recalculate-limit"
+            },
+            {
+              "order": 11,
+              "element": "#main-nav-creditcards"
+            },
+            {
+              "order": 12,
+              "element": "#hero-cta-learn-more"
+            }
+          ]
+        },
+        "name": "setConversationContext"
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6eJyh3v6Inagxih64G5D-au|0000001",
+        "timestamp": "2025-05-13T05:50:33.0347631Z",
+        "serviceUrl": "https://directline.botframework.com/",
+        "channelId": "directline",
+        "from": {
+          "id": "9904647c-127a-4c77-8ecb-1581450cc34d"
+        },
+        "conversation": {
+          "id": "6eJyh3v6Inagxih64G5D-au"
+        },
+        "recipient": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9@BgLoquZzQf61FwhictbIX8YHGr8nOPQ6ed97CplUknTAFfuKnR85JQQJ99BDACZoyfiAArohAAABAZBS3jB0",
+          "name": "Playground"
+        },
+        "locale": "en-AU",
+        "text": "Hi bot, tell me about WebSockets and ActivitySets in Direct Line."
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6eJyh3v6Inagxih64G5D-au|0000002",
+        "timestamp": "2025-05-13T05:50:33.8772591Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6eJyh3v6Inagxih64G5D-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "Sorry, something unexpected happened. We’re looking into it. Error code: IntegratedAuthenticationNotSupportedInChannel. Conversation ID: 6eJyh3v6Inagxih64G5D-au. Time (UTC): 5/13/2025 5:50:33 AM.",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6eJyh3v6Inagxih64G5D-au|0000000",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "2"
+  },
+  {
+    "activities": [
+      {
+        "type": "trace",
+        "id": "6eJyh3v6Inagxih64G5D-au|0000003",
+        "timestamp": "2025-05-13T05:50:34.1253987Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6eJyh3v6Inagxih64G5D-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6eJyh3v6Inagxih64G5D-au|0000000",
+        "valueType": "ErrorCode",
+        "value": {
+          "ErrorCode": "IntegratedAuthenticationNotSupportedInChannel"
+        },
+        "name": "ClientTraceData",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "3"
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "6eJyh3v6Inagxih64G5D-au|0000004",
+        "timestamp": "2025-05-13T05:50:34.5548062Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6eJyh3v6Inagxih64G5D-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "Sorry, something unexpected happened. We’re looking into it. Error code: IntegratedAuthenticationNotSupportedInChannel. Conversation ID: 6eJyh3v6Inagxih64G5D-au. Time (UTC): 5/13/2025 5:50:33 AM.",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6eJyh3v6Inagxih64G5D-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "4"
+  },
+  {
+    "activities": [
+      {
+        "type": "trace",
+        "id": "6eJyh3v6Inagxih64G5D-au|0000005",
+        "timestamp": "2025-05-13T05:50:34.9866528Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "6eJyh3v6Inagxih64G5D-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "6eJyh3v6Inagxih64G5D-au|0000001",
+        "valueType": "ErrorCode",
+        "value": {
+          "ErrorCode": "IntegratedAuthenticationNotSupportedInChannel"
+        },
+        "name": "ClientTraceData",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "5"
+  }
+]

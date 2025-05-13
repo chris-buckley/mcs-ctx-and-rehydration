@@ -1,0 +1,641 @@
+[
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000000",
+        "timestamp": "2025-05-13T06:12:24.7723909Z",
+        "serviceUrl": "https://directline.botframework.com/",
+        "channelId": "directline",
+        "from": {
+          "id": "aa18e81b-a272-4160-ae93-bedb720825be"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "recipient": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9@BgLoquZzQf61FwhictbIX8YHGr8nOPQ6ed97CplUknTAFfuKnR85JQQJ99BDACZoyfiAArohAAABAZBS3jB0",
+          "name": "Playground"
+        },
+        "locale": "en-AU",
+        "value": {
+          "user_first_name": "John",
+          "user_last_name": "Doe",
+          "user_email": "John.doe@hotmail.com",
+          "current_page_url": "https://examplebank.com/credit-cards/fees-and-charges",
+          "page_title": "Compare Credit Cards – Example Bank",
+          "element_clicked_to_initiate_chat": "#cc-help-chat",
+          "device_type": "desktop",
+          "device": "macOS 14 / Safari 17.0",
+          "viewport_width": 1440,
+          "viewport_height": 900,
+          "connection_type": "wifi",
+          "visit_start_time": "2025-05-13T06:12:21.907233+00:00",
+          "last_conversation_time": null,
+          "user_id": "aa18e81b-a272-4160-ae93-bedb720825be",
+          "language": "en",
+          "timezone": "Australia/Brisbane",
+          "local_time": "2025-05-13T06:12:21.907233+00:00",
+          "location": {
+            "country": "Australia",
+            "region": "Queensland",
+            "city": "Brisbane",
+            "latitude": -27.4679,
+            "longitude": 153.0281
+          },
+          "marketing_opt_in": true,
+          "app_version": "web-2.19.7",
+          "widget_version": "chat-1.4.2",
+          "navigation_history": [
+            {
+              "order": 1,
+              "element": "#cc-fee-details"
+            },
+            {
+              "order": 2,
+              "element": "#cc-interest-rate-tab"
+            },
+            {
+              "order": 3,
+              "element": "#cc-faq-interest-free"
+            },
+            {
+              "order": 4,
+              "element": "#cc-faq-annual-fee"
+            },
+            {
+              "order": 5,
+              "element": "#cc-compare-nav"
+            },
+            {
+              "order": 6,
+              "element": "#cc-terms-download"
+            },
+            {
+              "order": 7,
+              "element": "#filter-balance-transfer"
+            },
+            {
+              "order": 8,
+              "element": "#cc-rewards-explainer"
+            },
+            {
+              "order": 9,
+              "element": "#cc-signup-bonus"
+            },
+            {
+              "order": 10,
+              "element": "#cc-recalculate-limit"
+            },
+            {
+              "order": 11,
+              "element": "#main-nav-creditcards"
+            },
+            {
+              "order": 12,
+              "element": "#hero-cta-learn-more"
+            }
+          ]
+        },
+        "name": "setConversationContext"
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "timestamp": "2025-05-13T06:12:25.3661704Z",
+        "serviceUrl": "https://directline.botframework.com/",
+        "channelId": "directline",
+        "from": {
+          "id": "aa18e81b-a272-4160-ae93-bedb720825be"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "recipient": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9@BgLoquZzQf61FwhictbIX8YHGr8nOPQ6ed97CplUknTAFfuKnR85JQQJ99BDACZoyfiAArohAAABAZBS3jB0",
+          "name": "Playground"
+        },
+        "locale": "en-AU",
+        "text": "Hi bot, tell me about WebSockets and ActivitySets in Direct Line."
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000002",
+        "timestamp": "2025-05-13T06:12:26.2239524Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "textFormat": "markdown",
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "Context received ➜ Just to prove it. This is the page you opened this chat bot on: https://examplebank.com/credit-cards/fees-and-charges and you selected this element on that page to open this chat: #cc-help-chat",
+        "inputHint": "acceptingInput",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000000",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "2"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000003",
+        "timestamp": "2025-05-13T06:12:28.2906399Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "DynamicPlanReceived",
+        "value": {
+          "steps": [
+            "P:UniversalSearchTool"
+          ],
+          "isFinalPlan": false,
+          "planIdentifier": "3627efac-ce01-49ca-9145-c05a060dba9d",
+          "toolDefinitions": []
+        },
+        "name": "DynamicPlanReceived",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "3"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000004",
+        "timestamp": "2025-05-13T06:12:28.7103406Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "DynamicPlanReceivedDebug",
+        "value": {
+          "summary": "",
+          "ask": "Hi bot, tell me about WebSockets and ActivitySets in Direct Line.",
+          "planIdentifier": "3627efac-ce01-49ca-9145-c05a060dba9d",
+          "isFinalPlan": false
+        },
+        "name": "DynamicPlanReceivedDebug",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "4"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000005",
+        "timestamp": "2025-05-13T06:12:29.139713Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "DynamicPlanStepTriggered",
+        "value": {
+          "planIdentifier": "3627efac-ce01-49ca-9145-c05a060dba9d",
+          "stepId": "3a01e0d5-2b7e-4489-9b0a-9644a36a2055",
+          "taskDialogId": "P:UniversalSearchTool",
+          "thought": "This action needs to be done to provide detailed information about WebSockets and ActivitySets in Direct Line.",
+          "state": "inProgress",
+          "hasRecommendations": false,
+          "type": "KnowledgeSource"
+        },
+        "name": "DynamicPlanStepTriggered",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "5"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000006",
+        "timestamp": "2025-05-13T06:12:29.5725951Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "DynamicPlanStepBindUpdate",
+        "value": {
+          "taskDialogId": "P:UniversalSearchTool",
+          "stepId": "3a01e0d5-2b7e-4489-9b0a-9644a36a2055",
+          "arguments": {
+            "search_query": "WebSockets and ActivitySets in Direct Line",
+            "search_keywords": "WebSockets, ActivitySets, Direct Line"
+          },
+          "planIdentifier": "3627efac-ce01-49ca-9145-c05a060dba9d"
+        },
+        "name": "DynamicPlanStepBindUpdate",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "6"
+  },
+  {
+    "activities": [
+      {
+        "type": "typing",
+        "id": "DRWxUOngLEd223ii1rPip4-au|DbcbBFfe575",
+        "timestamp": "2025-05-13T06:12:33.7807479Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000007",
+        "timestamp": "2025-05-13T06:12:35.3688566Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "UniversalSearchToolTraceData",
+        "value": {
+          "toolId": "P:UniversalSearchTool",
+          "knowledgeSources": [
+            "BingUnscopedSearchKnowledge"
+          ],
+          "outputKnowledgeSources": [],
+          "fullResults": [],
+          "filteredResults": []
+        },
+        "name": "UniversalSearchToolTraceData",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "7"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000008",
+        "timestamp": "2025-05-13T06:12:35.8680263Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "DynamicPlanStepFinished",
+        "value": {
+          "taskDialogId": "P:UniversalSearchTool",
+          "stepId": "3a01e0d5-2b7e-4489-9b0a-9644a36a2055",
+          "observation": {
+            "search_result": {
+              "Text": {
+                "CitationSources": [
+                  {
+                    "Id": "https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0",
+                    "Name": "Receive activities from the bot - Bot Service | Microsoft Learn",
+                    "Text": "\"Receive activities from the bot - Bot Service | Microsoft Learn\\nLearn\\nAzure\\nAI Services\\nAI Bot Service\\nReceive activities from the bot in Direct Line API 3.0\\nArticle\\n10/09/2024\\n9 contributors\\nFeedback\\nUsing the Direct Line 3.0 protocol, clients can receive activities via WebSocket stream or retrieve activities by issuing HTTP GET requests.\\nWebSocket vs HTTP GET\\nA streaming WebSocket efficiently pushes messages to clients, whereas the GET interface enables clients to explicitly request messages. Although the WebSocket mechanism is often preferred due to its efficiency, the GET mechanism can be useful for clients that are unable to use WebSockets.\\nThe service allows only 1 WebSocket connection per conversation. Direct Line may close additional WebSocket connections with a reason value of collision.\\nNot all activity types are available both via WebSocket and via HTTP GET. The following table describes the availability of the various activity types for clients that use the Direct Line protocol.\\nActivity type\\nAvailability\\nmessage\\nHTTP GET and WebSocket\\ntyping\\nWebSocket only\\nconversationUpdate\\nNot sent/received via client\\ncontactRelationUpdate\\nNot supported in Direct Line\\nendOfConversation\\nHTTP GET and WebSocket\\nall other activity types\\nHTTP GET and WebSocket\\nReceive activities via WebSocket stream\\nWhen a client sends a Start Conversation request to open a conversation with a bot, the service\\u0027s response includes a streamUrl property that the client can subsequently use to connect via WebSocket. The stream URL is preauthorized and therefore the client\\u0027s request to connect via WebSocket does NOT require an Authorization header.\\nThe following example shows a request that uses a streamUrl to connect via WebSocket.\\nHTTP\\nCopy\\n--  connect to wss://directline.botframework.com --\\nGET /v3/directline/conversations/abc123/stream?t=RCurR_XV9ZA.cwA...\\u0022\\nUpgrade: websocket\\n Connection: upgrade\\n[other headers]\\n\\nThe service responds with status code HTTP 101 (\\u0022Switching Protocols\\u0022).\\nHTTP\\nCopy\\nHTTP/1.1  101  Switching Protocols\\n[other headers]\\n\\nReceive messages\\nAfter it connects via WebSocket, a client may receive these types of messages from the Direct Line service:\\nA message that contains an ActivitySet that includes one or more activities and a watermark (described below).\\nAn empty message, which the Direct Line service uses to ensure the connection is still valid.\\nAdditional types, to be defined later. These types are identified by the properties in the JSON root.\\nAn ActivitySet contains messages sent by the bot and by all users in the conversation. The following example shows an ActivitySet that contains a single message.\\nJSON\\nCopy\\n{\\n     \\u0022activities\\u0022: [\\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0000\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022user1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022hello\\u0022 \\n        }\\n    ],\\n     \\u0022watermark\\u0022:  \\u00220000a-42\\u0022 \\n}\\n\\nProcess messages\\nA client should keep track of the watermark value that it receives in each ActivitySet, so that it may use the watermark to guarantee that no messages are lost if it loses its connection and needs to reconnect to the conversation. If the client receives an ActivitySet wherein the watermark property is null or missing, it should ignore that value and not overwrite the prior watermark that it received.\\nA client should ignore empty messages that it receives from the Direct Line service.\\nA client may send empty messages to the Direct Line service to verify connectivity. The Direct Line service will ignore empty messages that it receives from the client.\\nThe Direct Line service may forcibly close the WebSocket connection under certain conditions. If the client has not received an endOfConversation activity, it may generate a new WebSocket stream URL that it can use to reconnect to the conversation.\\nThe WebSocket stream contains live updates and very recent messages (since the call to connect via WebSocket was issued) but it doesn\\u0027t include messages that were sent prior to the most recent POST to /v3/directline/conversations/{id}. To retrieve messages that were sent earlier in the conversation, use HTTP GET as described below.\\nRetrieve activities with HTTP GET\\nClients that are unable to use WebSockets can retrieve activities by using HTTP GET.\\nTo retrieve messages for a specific conversation, issue a GET request to the /v3/directline/conversations/{conversationId}/activities endpoint, optionally specifying the watermark parameter to indicate the most recent message seen by the client.\\nThe following snippets provide an example of the Get Conversation Activities request and response. The Get Conversation Activities response contains watermark as a property of the ActivitySet. Clients should page through the available activities by advancing the watermark value until no activities are returned.\\nRequest\\nHTTP\\nCopy\\nGET https://directline.botframework.com/v3/directline/conversations/abc123/activities?watermark=0001a-94\\nAuthorization: Bearer RCurR_XV9ZA.cwA.BKA.iaJrC8xpy8qbOF5xnR2vtCX7CZj0LdjAPGfiCpg4Fv0\\n\\nResponse\\nHTTP\\nCopy\\nHTTP/1.1  200  OK\\n[other headers]\\n\\nJSON\\nCopy\\n{\\n     \\u0022activities\\u0022: [\\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0000\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022user1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022hello\\u0022 \\n        }, \\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0001\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022bot1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022Nice to see you, user1!\\u0022 \\n        }\\n    ],\\n     \\u0022watermark\\u0022:  \\u00220001a-95\\u0022 \\n}\\n\\nTiming considerations\\nMost clients wish to retain a complete message history. Even though Direct Line is a multi-part protocol with potential timing gaps, the protocol and service is designed to make it easy to build a reliable client.\\nThe watermark property that is sent in the WebSocket stream and Get Conversation Activities response is reliable. A client won\\u0027t miss any messages as long as it replays the watermark verbatim.\\nWhen a client starts a conversation and connects to the WebSocket stream, any activities that are sent after the POST but before the socket is opened are replayed before new activities.\\nWhen a client issues a Get Conversation Activities request (to refresh history) while it\\u0027s connected to the WebSocket stream, activities may be duplicated across both channels. Clients should keep track of all known activity IDs so that they\\u0027re able to reject duplicate activities, should they occur.\\nClients that poll using HTTP GET should choose a polling interval that matches their intended use.\\nService-to-service applications often use a polling interval of 5s or 10s.\\nClient-facing applications often use a polling interval of 1s, and issue a single additional request shortly after every message that the client sends (to rapidly retrieve a bot\\u0027s response). This delay can be as short at 300ms but should be tuned based on the bot\\u0027s speed and transit time. Polling shouldn\\u0027t be more frequent than once per second for any extended period of time.\\nAdditional resources\\nKey concepts\\nAuthentication\\nStart a conversation\\nReconnect to a conversation\\nSend an activity to the bot\\nEnd a conversation\\nLearn how to receive activity updates from bots. See how to use version 3.0 of the Direct Line API to connect by using WebSocket streams or HTTP GET requests.\"",
+                    "Type": "Unknown",
+                    "Url": "https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0"
+                  },
+                  {
+                    "Id": "https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0",
+                    "Name": "Direct Line App Service extension - Bot Service | Microsoft Learn",
+                    "Text": "\"Direct Line App Service extension - Bot Service | Microsoft Learn\\nLearn\\nAzure\\nAI Services\\nAI Bot Service\\nDirect Line App Service extension\\nArticle\\n10/09/2024\\n10 contributors\\nFeedback\\nCommencing September 1, 2023, it is strongly advised to employ the Azure Service Tag method for network isolation. The utilization of DL-ASE should be limited to highly specific scenarios. Prior to implementing this solution in a production environment, we kindly recommend consulting your support team for guidance.\\nAPPLIES TO: SDK v4\\nThe Direct Line App Service extension allows clients to connect directly with the host, where the bot is located. It runs inside the same subscription, app service, and Azure network as your bot and provides network isolation and, in some cases, improved performance. The client application uses WebSocket protocol to communicate with the bot.\\nThe Direct Line App Service extension is only supported in a Windows App Service, and not currently supported in a Linux App Service.\\nThe following picture shows the overall architecture:\\nNote\\nIf you don\\u0027t require network isolation and want to use the standard channel over the HTTPS protocol, refer to Connect a bot to Direct Line.\\nThe Direct Line App Service extension adds a new set of streaming extensions to the Bot Framework protocol, replacing exchanging messages via HTTP with a transport that allows bidirectional requests to be sent over a persistent WebSocket.\\nBefore streaming extensions, the Direct Line API offered one way for a client to send Activities to Direct Line and two ways for a client to retrieve Activities from Direct Line. The messages were sent via an HTTP POST, and received by either an HTTP GET (polling) or by opening a WebSocket to receive ActivitySets. Streaming extensions expand on the use of the WebSocket and allow all messaging communication to be sent on that WebSocket. Streaming extensions can also be used between channel services and the bot.\\nThe Direct Line App Service extension is pre-installed on all instances of Azure App Services in every data center around the world. It\\u0027s maintained and managed by Microsoft without additional deployment work for the customer. It\\u0027s disabled on Azure App Services by default, but it can be easily turned on to connect to your hosted bot.\\nSee Also\\nName\\nDescription\\nConfigure .NET bot for extension\\nUpdate a .NET bot to work with named pipes, and enable the Direct Line App Service extension in the Azure App Service resource where the bot is hosted.\\nConfigure Node.js bot for extension\\nUpdate a Node.js bot to work with named pipes and enable the Direct Line App Service extension in the Azure App Service resource where the bot is hosted.\\nCreate .NET client with extension\\nCreate a .NET client in C# which connects to the Direct Line App Service extension.\\nUse extension with Web Chat\\nUse Web Chat with the Direct Line App Service extension.\\nUse extension within VNET\\nUse the Direct Line App Service extension with an Azure Virtual Network (VNET).\\nAdditional resources\\nConnect a bot to Direct Line\\nAdditional resources\\nTraining\\nLearning path\\nImplement Azure App Service web apps - Training\\nLearn how Azure App Service functions and how to create and update an app. Explore App Service authentication and authorization, configuring app settings, scale apps, and how to use deployment slots.\\nCertification\\nMicrosoft Certified: Azure Developer Associate - Certifications\\nBuild end-to-end solutions in Microsoft Azure to create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, and more.\\nBecome familiar with the Direct Line App Service extension. See how to use streaming extensions to connect directly to hosted bots. View additional resources.\"",
+                    "Type": "Unknown",
+                    "Url": "https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0"
+                  }
+                ],
+                "Content": "**WebSockets in Direct Line**\n\n- **Connection**: Clients can connect to the Direct Line service using a WebSocket stream. This is initiated by sending a Start Conversation request, which includes a `streamUrl` property. The client uses this URL to connect via WebSocket without needing an Authorization header [1].\n- **Efficiency**: WebSocket is preferred for its efficiency in pushing messages to clients compared to HTTP GET requests [1].\n- **Single Connection**: Only one WebSocket connection per conversation is allowed. Additional connections may be closed with a reason value of collision [1].\n- **Message Types**: Messages received via WebSocket include ActivitySets, empty messages to ensure connection validity, and other types identified by JSON properties [1].\n\n**ActivitySets in Direct Line**\n\n- **Definition**: An ActivitySet contains messages sent by the bot and all users in the conversation. It includes a watermark to track the most recent message [1].\n- **Handling**: Clients should keep track of the watermark to ensure no messages are lost if the connection is interrupted. If the watermark is null or missing, the client should ignore it and not overwrite the previous watermark [1].\n- **Empty Messages**: Clients should ignore empty messages received from the Direct Line service. These are used to verify connectivity [1].\n- **Reconnection**: If the WebSocket connection is forcibly closed, clients can generate a new WebSocket stream URL to reconnect to the conversation [1].\n\n**Retrieving Activities with HTTP GET**\n\n- **Alternative to WebSocket**: Clients unable to use WebSockets can retrieve activities using HTTP GET requests to the `/v3/directline/conversations/{conversationId}/activities` endpoint [1].\n- **Watermark Parameter**: The watermark parameter can be used to indicate the most recent message seen by the client, ensuring no messages are missed [1].\n- **Polling Interval**: Clients should choose a polling interval that matches their use case. Service-to-service applications often use 5s or 10s, while client-facing applications may use 1s [1].\n\n**Additional Considerations**\n\n- **Network Isolation**: The Direct Line App Service extension provides network isolation and improved performance in some cases. It is recommended to use the Azure Service Tag method for network isolation [2].\n- **Streaming Extensions**: The Direct Line App Service extension adds streaming extensions to the Bot Framework protocol, allowing bidirectional requests over a persistent WebSocket [2].\n\nThese features and considerations help ensure efficient and reliable communication between clients and bots using the Direct Line protocol.",
+                "MarkdownContent": "**WebSockets in Direct Line**\n\n- **Connection**: Clients can connect to the Direct Line service using a WebSocket stream. This is initiated by sending a Start Conversation request, which includes a `streamUrl` property. The client uses this URL to connect via WebSocket without needing an Authorization header [1].\n- **Efficiency**: WebSocket is preferred for its efficiency in pushing messages to clients compared to HTTP GET requests [1].\n- **Single Connection**: Only one WebSocket connection per conversation is allowed. Additional connections may be closed with a reason value of collision [1].\n- **Message Types**: Messages received via WebSocket include ActivitySets, empty messages to ensure connection validity, and other types identified by JSON properties [1].\n\n**ActivitySets in Direct Line**\n\n- **Definition**: An ActivitySet contains messages sent by the bot and all users in the conversation. It includes a watermark to track the most recent message [1].\n- **Handling**: Clients should keep track of the watermark to ensure no messages are lost if the connection is interrupted. If the watermark is null or missing, the client should ignore it and not overwrite the previous watermark [1].\n- **Empty Messages**: Clients should ignore empty messages received from the Direct Line service. These are used to verify connectivity [1].\n- **Reconnection**: If the WebSocket connection is forcibly closed, clients can generate a new WebSocket stream URL to reconnect to the conversation [1].\n\n**Retrieving Activities with HTTP GET**\n\n- **Alternative to WebSocket**: Clients unable to use WebSockets can retrieve activities using HTTP GET requests to the `/v3/directline/conversations/{conversationId}/activities` endpoint [1].\n- **Watermark Parameter**: The watermark parameter can be used to indicate the most recent message seen by the client, ensuring no messages are missed [1].\n- **Polling Interval**: Clients should choose a polling interval that matches their use case. Service-to-service applications often use 5s or 10s, while client-facing applications may use 1s [1].\n\n**Additional Considerations**\n\n- **Network Isolation**: The Direct Line App Service extension provides network isolation and improved performance in some cases. It is recommended to use the Azure Service Tag method for network isolation [2].\n- **Streaming Extensions**: The Direct Line App Service extension adds streaming extensions to the Bot Framework protocol, allowing bidirectional requests over a persistent WebSocket [2].\n\nThese features and considerations help ensure efficient and reliable communication between clients and bots using the Direct Line protocol.\n\n[1]: https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0 \"Receive activities from the bot - Bot Service | Microsoft Learn\"\n[2]: https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0 \"Direct Line App Service extension - Bot Service | Microsoft Learn\""
+              }
+            }
+          },
+          "planUsedOutputs": {},
+          "planIdentifier": "3627efac-ce01-49ca-9145-c05a060dba9d",
+          "state": "completed",
+          "hasRecommendations": false
+        },
+        "name": "DynamicPlanStepFinished",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "8"
+  },
+  {
+    "activities": [
+      {
+        "type": "typing",
+        "id": "DRWxUOngLEd223ii1rPip4-au|88z6PIGEKzC",
+        "timestamp": "2025-05-13T06:12:37.7752085Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ]
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000009",
+        "timestamp": "2025-05-13T06:12:40.2014215Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "textFormat": "markdown",
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "WebSockets in Direct Line:\n- **Connection**: Clients can connect to the Direct Line service using a WebSocket stream. This is initiated by sending a Start Conversation request, which includes a `streamUrl` property. The client uses this URL to connect via WebSocket without needing an Authorization header [1].\n- **Efficiency**: WebSocket is preferred for its efficiency in pushing messages to clients compared to HTTP GET requests [1].\n- **Single Connection**: Only one WebSocket connection per conversation is allowed. Additional connections may be closed with a reason value of collision [1].\n- **Message Types**: Messages received via WebSocket include ActivitySets, empty messages to ensure connection validity, and other types identified by JSON properties [1].\n\nActivitySets in Direct Line:\n- **Definition**: An ActivitySet contains messages sent by the bot and all users in the conversation. It includes a watermark to track the most recent message [1].\n- **Handling**: Clients should keep track of the watermark to ensure no messages are lost if the connection is interrupted. If the watermark is null or missing, the client should ignore it and not overwrite the previous watermark [1].\n- **Empty Messages**: Clients should ignore empty messages received from the Direct Line service. These are used to verify connectivity [1].\n- **Reconnection**: If the WebSocket connection is forcibly closed, clients can generate a new WebSocket stream URL to reconnect to the conversation [1].\n\nRetrieving Activities with HTTP GET:\n- **Alternative to WebSocket**: Clients unable to use WebSockets can retrieve activities using HTTP GET requests to the `/v3/directline/conversations/{conversationId}/activities` endpoint [1].\n- **Watermark Parameter**: The watermark parameter can be used to indicate the most recent message seen by the client, ensuring no messages are missed [1].\n- **Polling Interval**: Clients should choose a polling interval that matches their use case. Service-to-service applications often use 5s or 10s, while client-facing applications may use 1s [1].\n\nAdditional Considerations:\n- **Network Isolation**: The Direct Line App Service extension provides network isolation and improved performance in some cases. It is recommended to use the Azure Service Tag method for network isolation [2].\n- **Streaming Extensions**: The Direct Line App Service extension adds streaming extensions to the Bot Framework protocol, allowing bidirectional requests over a persistent WebSocket [2].\n\nThese features and considerations help ensure efficient and reliable communication between clients and bots using the Direct Line protocol.\n\n[1]: https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0 \"Receive activities from the bot - Bot Service | Microsoft Learn\"\n[2]: https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0 \"Direct Line App Service extension - Bot Service | Microsoft Learn\"",
+        "inputHint": "acceptingInput",
+        "attachments": [],
+        "entities": [
+          {
+            "type": "https://schema.org/Message",
+            "citation": [
+              {
+                "appearance": {
+                  "text": "\"Receive activities from the bot - Bot Service | Microsoft Learn\\nLearn\\nAzure\\nAI Services\\nAI Bot Service\\nReceive activities from the bot in Direct Line API 3.0\\nArticle\\n10/09/2024\\n9 contributors\\nFeedback\\nUsing the Direct Line 3.0 protocol, clients can receive activities via WebSocket stream or retrieve activities by issuing HTTP GET requests.\\nWebSocket vs HTTP GET\\nA streaming WebSocket efficiently pushes messages to clients, whereas the GET interface enables clients to explicitly request messages. Although the WebSocket mechanism is often preferred due to its efficiency, the GET mechanism can be useful for clients that are unable to use WebSockets.\\nThe service allows only 1 WebSocket connection per conversation. Direct Line may close additional WebSocket connections with a reason value of collision.\\nNot all activity types are available both via WebSocket and via HTTP GET. The following table describes the availability of the various activity types for clients that use the Direct Line protocol.\\nActivity type\\nAvailability\\nmessage\\nHTTP GET and WebSocket\\ntyping\\nWebSocket only\\nconversationUpdate\\nNot sent/received via client\\ncontactRelationUpdate\\nNot supported in Direct Line\\nendOfConversation\\nHTTP GET and WebSocket\\nall other activity types\\nHTTP GET and WebSocket\\nReceive activities via WebSocket stream\\nWhen a client sends a Start Conversation request to open a conversation with a bot, the service\\u0027s response includes a streamUrl property that the client can subsequently use to connect via WebSocket. The stream URL is preauthorized and therefore the client\\u0027s request to connect via WebSocket does NOT require an Authorization header.\\nThe following example shows a request that uses a streamUrl to connect via WebSocket.\\nHTTP\\nCopy\\n--  connect to wss://directline.botframework.com --\\nGET /v3/directline/conversations/abc123/stream?t=RCurR_XV9ZA.cwA...\\u0022\\nUpgrade: websocket\\n Connection: upgrade\\n[other headers]\\n\\nThe service responds with status code HTTP 101 (\\u0022Switching Protocols\\u0022).\\nHTTP\\nCopy\\nHTTP/1.1  101  Switching Protocols\\n[other headers]\\n\\nReceive messages\\nAfter it connects via WebSocket, a client may receive these types of messages from the Direct Line service:\\nA message that contains an ActivitySet that includes one or more activities and a watermark (described below).\\nAn empty message, which the Direct Line service uses to ensure the connection is still valid.\\nAdditional types, to be defined later. These types are identified by the properties in the JSON root.\\nAn ActivitySet contains messages sent by the bot and by all users in the conversation. The following example shows an ActivitySet that contains a single message.\\nJSON\\nCopy\\n{\\n     \\u0022activities\\u0022: [\\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0000\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022user1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022hello\\u0022 \\n        }\\n    ],\\n     \\u0022watermark\\u0022:  \\u00220000a-42\\u0022 \\n}\\n\\nProcess messages\\nA client should keep track of the watermark value that it receives in each ActivitySet, so that it may use the watermark to guarantee that no messages are lost if it loses its connection and needs to reconnect to the conversation. If the client receives an ActivitySet wherein the watermark property is null or missing, it should ignore that value and not overwrite the prior watermark that it received.\\nA client should ignore empty messages that it receives from the Direct Line service.\\nA client may send empty messages to the Direct Line service to verify connectivity. The Direct Line service will ignore empty messages that it receives from the client.\\nThe Direct Line service may forcibly close the WebSocket connection under certain conditions. If the client has not received an endOfConversation activity, it may generate a new WebSocket stream URL that it can use to reconnect to the conversation.\\nThe WebSocket stream contains live updates and very recent messages (since the call to connect via WebSocket was issued) but it doesn\\u0027t include messages that were sent prior to the most recent POST to /v3/directline/conversations/{id}. To retrieve messages that were sent earlier in the conversation, use HTTP GET as described below.\\nRetrieve activities with HTTP GET\\nClients that are unable to use WebSockets can retrieve activities by using HTTP GET.\\nTo retrieve messages for a specific conversation, issue a GET request to the /v3/directline/conversations/{conversationId}/activities endpoint, optionally specifying the watermark parameter to indicate the most recent message seen by the client.\\nThe following snippets provide an example of the Get Conversation Activities request and response. The Get Conversation Activities response contains watermark as a property of the ActivitySet. Clients should page through the available activities by advancing the watermark value until no activities are returned.\\nRequest\\nHTTP\\nCopy\\nGET https://directline.botframework.com/v3/directline/conversations/abc123/activities?watermark=0001a-94\\nAuthorization: Bearer RCurR_XV9ZA.cwA.BKA.iaJrC8xpy8qbOF5xnR2vtCX7CZj0LdjAPGfiCpg4Fv0\\n\\nResponse\\nHTTP\\nCopy\\nHTTP/1.1  200  OK\\n[other headers]\\n\\nJSON\\nCopy\\n{\\n     \\u0022activities\\u0022: [\\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0000\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022user1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022hello\\u0022 \\n        }, \\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0001\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022bot1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022Nice to see you, user1!\\u0022 \\n        }\\n    ],\\n     \\u0022watermark\\u0022:  \\u00220001a-95\\u0022 \\n}\\n\\nTiming considerations\\nMost clients wish to retain a complete message history. Even though Direct Line is a multi-part protocol with potential timing gaps, the protocol and service is designed to make it easy to build a reliable client.\\nThe watermark property that is sent in the WebSocket stream and Get Conversation Activities response is reliable. A client won\\u0027t miss any messages as long as it replays the watermark verbatim.\\nWhen a client starts a conversation and connects to the WebSocket stream, any activities that are sent after the POST but before the socket is opened are replayed before new activities.\\nWhen a client issues a Get Conversation Activities request (to refresh history) while it\\u0027s connected to the WebSocket stream, activities may be duplicated across both channels. Clients should keep track of all known activity IDs so that they\\u0027re able to reject duplicate activities, should they occur.\\nClients that poll using HTTP GET should choose a polling interval that matches their intended use.\\nService-to-service applications often use a polling interval of 5s or 10s.\\nClient-facing applications often use a polling interval of 1s, and issue a single additional request shortly after every message that the client sends (to rapidly retrieve a bot\\u0027s response). This delay can be as short at 300ms but should be tuned based on the bot\\u0027s speed and transit time. Polling shouldn\\u0027t be more frequent than once per second for any extended period of time.\\nAdditional resources\\nKey concepts\\nAuthentication\\nStart a conversation\\nReconnect to a conversation\\nSend an activity to the bot\\nEnd a conversation\\nLearn how to receive activity updates from bots. See how to use version 3.0 of the Direct Line API to connect by using WebSocket streams or HTTP GET requests.\"",
+                  "abstract": "Receive activities from the bot - Bot Service | Microsoft Learn",
+                  "@type": "DigitalDocument",
+                  "name": "Receive activities from the bot - Bot Service | Microsoft Learn",
+                  "url": "https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0"
+                },
+                "position": 1,
+                "@type": "Claim",
+                "@id": "https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0"
+              },
+              {
+                "appearance": {
+                  "text": "\"Direct Line App Service extension - Bot Service | Microsoft Learn\\nLearn\\nAzure\\nAI Services\\nAI Bot Service\\nDirect Line App Service extension\\nArticle\\n10/09/2024\\n10 contributors\\nFeedback\\nCommencing September 1, 2023, it is strongly advised to employ the Azure Service Tag method for network isolation. The utilization of DL-ASE should be limited to highly specific scenarios. Prior to implementing this solution in a production environment, we kindly recommend consulting your support team for guidance.\\nAPPLIES TO: SDK v4\\nThe Direct Line App Service extension allows clients to connect directly with the host, where the bot is located. It runs inside the same subscription, app service, and Azure network as your bot and provides network isolation and, in some cases, improved performance. The client application uses WebSocket protocol to communicate with the bot.\\nThe Direct Line App Service extension is only supported in a Windows App Service, and not currently supported in a Linux App Service.\\nThe following picture shows the overall architecture:\\nNote\\nIf you don\\u0027t require network isolation and want to use the standard channel over the HTTPS protocol, refer to Connect a bot to Direct Line.\\nThe Direct Line App Service extension adds a new set of streaming extensions to the Bot Framework protocol, replacing exchanging messages via HTTP with a transport that allows bidirectional requests to be sent over a persistent WebSocket.\\nBefore streaming extensions, the Direct Line API offered one way for a client to send Activities to Direct Line and two ways for a client to retrieve Activities from Direct Line. The messages were sent via an HTTP POST, and received by either an HTTP GET (polling) or by opening a WebSocket to receive ActivitySets. Streaming extensions expand on the use of the WebSocket and allow all messaging communication to be sent on that WebSocket. Streaming extensions can also be used between channel services and the bot.\\nThe Direct Line App Service extension is pre-installed on all instances of Azure App Services in every data center around the world. It\\u0027s maintained and managed by Microsoft without additional deployment work for the customer. It\\u0027s disabled on Azure App Services by default, but it can be easily turned on to connect to your hosted bot.\\nSee Also\\nName\\nDescription\\nConfigure .NET bot for extension\\nUpdate a .NET bot to work with named pipes, and enable the Direct Line App Service extension in the Azure App Service resource where the bot is hosted.\\nConfigure Node.js bot for extension\\nUpdate a Node.js bot to work with named pipes and enable the Direct Line App Service extension in the Azure App Service resource where the bot is hosted.\\nCreate .NET client with extension\\nCreate a .NET client in C# which connects to the Direct Line App Service extension.\\nUse extension with Web Chat\\nUse Web Chat with the Direct Line App Service extension.\\nUse extension within VNET\\nUse the Direct Line App Service extension with an Azure Virtual Network (VNET).\\nAdditional resources\\nConnect a bot to Direct Line\\nAdditional resources\\nTraining\\nLearning path\\nImplement Azure App Service web apps - Training\\nLearn how Azure App Service functions and how to create and update an app. Explore App Service authentication and authorization, configuring app settings, scale apps, and how to use deployment slots.\\nCertification\\nMicrosoft Certified: Azure Developer Associate - Certifications\\nBuild end-to-end solutions in Microsoft Azure to create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, and more.\\nBecome familiar with the Direct Line App Service extension. See how to use streaming extensions to connect directly to hosted bots. View additional resources.\"",
+                  "abstract": "Direct Line App Service extension - Bot Service | Microsoft Learn",
+                  "@type": "DigitalDocument",
+                  "name": "Direct Line App Service extension - Bot Service | Microsoft Learn",
+                  "url": "https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0"
+                },
+                "position": 2,
+                "@type": "Claim",
+                "@id": "https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0"
+              }
+            ],
+            "@type": "Message",
+            "@id": "",
+            "additionalType": [
+              "AIGeneratedContent"
+            ],
+            "@context": "https://schema.org"
+          },
+          {
+            "type": "https://schema.org/Claim",
+            "@id": "https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-receive-activities?view=azure-bot-service-4.0",
+            "@type": "Claim",
+            "@context": "https://schema.org",
+            "text": "\"Receive activities from the bot - Bot Service | Microsoft Learn\\nLearn\\nAzure\\nAI Services\\nAI Bot Service\\nReceive activities from the bot in Direct Line API 3.0\\nArticle\\n10/09/2024\\n9 contributors\\nFeedback\\nUsing the Direct Line 3.0 protocol, clients can receive activities via WebSocket stream or retrieve activities by issuing HTTP GET requests.\\nWebSocket vs HTTP GET\\nA streaming WebSocket efficiently pushes messages to clients, whereas the GET interface enables clients to explicitly request messages. Although the WebSocket mechanism is often preferred due to its efficiency, the GET mechanism can be useful for clients that are unable to use WebSockets.\\nThe service allows only 1 WebSocket connection per conversation. Direct Line may close additional WebSocket connections with a reason value of collision.\\nNot all activity types are available both via WebSocket and via HTTP GET. The following table describes the availability of the various activity types for clients that use the Direct Line protocol.\\nActivity type\\nAvailability\\nmessage\\nHTTP GET and WebSocket\\ntyping\\nWebSocket only\\nconversationUpdate\\nNot sent/received via client\\ncontactRelationUpdate\\nNot supported in Direct Line\\nendOfConversation\\nHTTP GET and WebSocket\\nall other activity types\\nHTTP GET and WebSocket\\nReceive activities via WebSocket stream\\nWhen a client sends a Start Conversation request to open a conversation with a bot, the service\\u0027s response includes a streamUrl property that the client can subsequently use to connect via WebSocket. The stream URL is preauthorized and therefore the client\\u0027s request to connect via WebSocket does NOT require an Authorization header.\\nThe following example shows a request that uses a streamUrl to connect via WebSocket.\\nHTTP\\nCopy\\n--  connect to wss://directline.botframework.com --\\nGET /v3/directline/conversations/abc123/stream?t=RCurR_XV9ZA.cwA...\\u0022\\nUpgrade: websocket\\n Connection: upgrade\\n[other headers]\\n\\nThe service responds with status code HTTP 101 (\\u0022Switching Protocols\\u0022).\\nHTTP\\nCopy\\nHTTP/1.1  101  Switching Protocols\\n[other headers]\\n\\nReceive messages\\nAfter it connects via WebSocket, a client may receive these types of messages from the Direct Line service:\\nA message that contains an ActivitySet that includes one or more activities and a watermark (described below).\\nAn empty message, which the Direct Line service uses to ensure the connection is still valid.\\nAdditional types, to be defined later. These types are identified by the properties in the JSON root.\\nAn ActivitySet contains messages sent by the bot and by all users in the conversation. The following example shows an ActivitySet that contains a single message.\\nJSON\\nCopy\\n{\\n     \\u0022activities\\u0022: [\\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0000\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022user1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022hello\\u0022 \\n        }\\n    ],\\n     \\u0022watermark\\u0022:  \\u00220000a-42\\u0022 \\n}\\n\\nProcess messages\\nA client should keep track of the watermark value that it receives in each ActivitySet, so that it may use the watermark to guarantee that no messages are lost if it loses its connection and needs to reconnect to the conversation. If the client receives an ActivitySet wherein the watermark property is null or missing, it should ignore that value and not overwrite the prior watermark that it received.\\nA client should ignore empty messages that it receives from the Direct Line service.\\nA client may send empty messages to the Direct Line service to verify connectivity. The Direct Line service will ignore empty messages that it receives from the client.\\nThe Direct Line service may forcibly close the WebSocket connection under certain conditions. If the client has not received an endOfConversation activity, it may generate a new WebSocket stream URL that it can use to reconnect to the conversation.\\nThe WebSocket stream contains live updates and very recent messages (since the call to connect via WebSocket was issued) but it doesn\\u0027t include messages that were sent prior to the most recent POST to /v3/directline/conversations/{id}. To retrieve messages that were sent earlier in the conversation, use HTTP GET as described below.\\nRetrieve activities with HTTP GET\\nClients that are unable to use WebSockets can retrieve activities by using HTTP GET.\\nTo retrieve messages for a specific conversation, issue a GET request to the /v3/directline/conversations/{conversationId}/activities endpoint, optionally specifying the watermark parameter to indicate the most recent message seen by the client.\\nThe following snippets provide an example of the Get Conversation Activities request and response. The Get Conversation Activities response contains watermark as a property of the ActivitySet. Clients should page through the available activities by advancing the watermark value until no activities are returned.\\nRequest\\nHTTP\\nCopy\\nGET https://directline.botframework.com/v3/directline/conversations/abc123/activities?watermark=0001a-94\\nAuthorization: Bearer RCurR_XV9ZA.cwA.BKA.iaJrC8xpy8qbOF5xnR2vtCX7CZj0LdjAPGfiCpg4Fv0\\n\\nResponse\\nHTTP\\nCopy\\nHTTP/1.1  200  OK\\n[other headers]\\n\\nJSON\\nCopy\\n{\\n     \\u0022activities\\u0022: [\\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0000\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022user1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022hello\\u0022 \\n        }, \\n        {\\n             \\u0022type\\u0022:  \\u0022message\\u0022,\\n             \\u0022channelId\\u0022:  \\u0022directline\\u0022,\\n             \\u0022conversation\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022abc123\\u0022 \\n            },\\n             \\u0022id\\u0022:  \\u0022abc123|0001\\u0022,\\n             \\u0022from\\u0022: {\\n                 \\u0022id\\u0022:  \\u0022bot1\\u0022 \\n            },\\n             \\u0022text\\u0022:  \\u0022Nice to see you, user1!\\u0022 \\n        }\\n    ],\\n     \\u0022watermark\\u0022:  \\u00220001a-95\\u0022 \\n}\\n\\nTiming considerations\\nMost clients wish to retain a complete message history. Even though Direct Line is a multi-part protocol with potential timing gaps, the protocol and service is designed to make it easy to build a reliable client.\\nThe watermark property that is sent in the WebSocket stream and Get Conversation Activities response is reliable. A client won\\u0027t miss any messages as long as it replays the watermark verbatim.\\nWhen a client starts a conversation and connects to the WebSocket stream, any activities that are sent after the POST but before the socket is opened are replayed before new activities.\\nWhen a client issues a Get Conversation Activities request (to refresh history) while it\\u0027s connected to the WebSocket stream, activities may be duplicated across both channels. Clients should keep track of all known activity IDs so that they\\u0027re able to reject duplicate activities, should they occur.\\nClients that poll using HTTP GET should choose a polling interval that matches their intended use.\\nService-to-service applications often use a polling interval of 5s or 10s.\\nClient-facing applications often use a polling interval of 1s, and issue a single additional request shortly after every message that the client sends (to rapidly retrieve a bot\\u0027s response). This delay can be as short at 300ms but should be tuned based on the bot\\u0027s speed and transit time. Polling shouldn\\u0027t be more frequent than once per second for any extended period of time.\\nAdditional resources\\nKey concepts\\nAuthentication\\nStart a conversation\\nReconnect to a conversation\\nSend an activity to the bot\\nEnd a conversation\\nLearn how to receive activity updates from bots. See how to use version 3.0 of the Direct Line API to connect by using WebSocket streams or HTTP GET requests.\"",
+            "name": "Receive activities from the bot - Bot Service | Microsoft Learn"
+          },
+          {
+            "type": "https://schema.org/Claim",
+            "@id": "https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-directline-extension?view=azure-bot-service-4.0",
+            "@type": "Claim",
+            "@context": "https://schema.org",
+            "text": "\"Direct Line App Service extension - Bot Service | Microsoft Learn\\nLearn\\nAzure\\nAI Services\\nAI Bot Service\\nDirect Line App Service extension\\nArticle\\n10/09/2024\\n10 contributors\\nFeedback\\nCommencing September 1, 2023, it is strongly advised to employ the Azure Service Tag method for network isolation. The utilization of DL-ASE should be limited to highly specific scenarios. Prior to implementing this solution in a production environment, we kindly recommend consulting your support team for guidance.\\nAPPLIES TO: SDK v4\\nThe Direct Line App Service extension allows clients to connect directly with the host, where the bot is located. It runs inside the same subscription, app service, and Azure network as your bot and provides network isolation and, in some cases, improved performance. The client application uses WebSocket protocol to communicate with the bot.\\nThe Direct Line App Service extension is only supported in a Windows App Service, and not currently supported in a Linux App Service.\\nThe following picture shows the overall architecture:\\nNote\\nIf you don\\u0027t require network isolation and want to use the standard channel over the HTTPS protocol, refer to Connect a bot to Direct Line.\\nThe Direct Line App Service extension adds a new set of streaming extensions to the Bot Framework protocol, replacing exchanging messages via HTTP with a transport that allows bidirectional requests to be sent over a persistent WebSocket.\\nBefore streaming extensions, the Direct Line API offered one way for a client to send Activities to Direct Line and two ways for a client to retrieve Activities from Direct Line. The messages were sent via an HTTP POST, and received by either an HTTP GET (polling) or by opening a WebSocket to receive ActivitySets. Streaming extensions expand on the use of the WebSocket and allow all messaging communication to be sent on that WebSocket. Streaming extensions can also be used between channel services and the bot.\\nThe Direct Line App Service extension is pre-installed on all instances of Azure App Services in every data center around the world. It\\u0027s maintained and managed by Microsoft without additional deployment work for the customer. It\\u0027s disabled on Azure App Services by default, but it can be easily turned on to connect to your hosted bot.\\nSee Also\\nName\\nDescription\\nConfigure .NET bot for extension\\nUpdate a .NET bot to work with named pipes, and enable the Direct Line App Service extension in the Azure App Service resource where the bot is hosted.\\nConfigure Node.js bot for extension\\nUpdate a Node.js bot to work with named pipes and enable the Direct Line App Service extension in the Azure App Service resource where the bot is hosted.\\nCreate .NET client with extension\\nCreate a .NET client in C# which connects to the Direct Line App Service extension.\\nUse extension with Web Chat\\nUse Web Chat with the Direct Line App Service extension.\\nUse extension within VNET\\nUse the Direct Line App Service extension with an Azure Virtual Network (VNET).\\nAdditional resources\\nConnect a bot to Direct Line\\nAdditional resources\\nTraining\\nLearning path\\nImplement Azure App Service web apps - Training\\nLearn how Azure App Service functions and how to create and update an app. Explore App Service authentication and authorization, configuring app settings, scale apps, and how to use deployment slots.\\nCertification\\nMicrosoft Certified: Azure Developer Associate - Certifications\\nBuild end-to-end solutions in Microsoft Azure to create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, and more.\\nBecome familiar with the Direct Line App Service extension. See how to use streaming extensions to connect directly to hosted bots. View additional resources.\"",
+            "name": "Direct Line App Service extension - Bot Service | Microsoft Learn"
+          }
+        ],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "9"
+  },
+  {
+    "activities": [
+      {
+        "type": "event",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000010",
+        "timestamp": "2025-05-13T06:12:40.6274963Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "valueType": "DynamicPlanFinished",
+        "value": {
+          "planId": "8d187bdb-72bf-4fd4-bc3f-b5354ac24534"
+        },
+        "name": "DynamicPlanFinished",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "10"
+  },
+  {
+    "activities": [
+      {
+        "type": "message",
+        "id": "DRWxUOngLEd223ii1rPip4-au|0000011",
+        "timestamp": "2025-05-13T06:12:41.0602777Z",
+        "channelId": "directline",
+        "from": {
+          "id": "9b21c59b-6aff-eb7a-7a40-5129245a93a9",
+          "name": "Playground",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "DRWxUOngLEd223ii1rPip4-au"
+        },
+        "textFormat": "markdown",
+        "membersAdded": [],
+        "membersRemoved": [],
+        "reactionsAdded": [],
+        "reactionsRemoved": [],
+        "locale": "en-AU",
+        "text": "Did that answer your question?",
+        "inputHint": "acceptingInput",
+        "suggestedActions": {
+          "to": [],
+          "actions": [
+            {
+              "type": "imBack",
+              "title": "Yes",
+              "text": "Yes",
+              "value": "Yes"
+            },
+            {
+              "type": "imBack",
+              "title": "No",
+              "text": "No",
+              "value": "No"
+            }
+          ]
+        },
+        "attachments": [],
+        "entities": [],
+        "replyToId": "DRWxUOngLEd223ii1rPip4-au|0000001",
+        "listenFor": [],
+        "textHighlights": []
+      }
+    ],
+    "watermark": "11"
+  }
+]
