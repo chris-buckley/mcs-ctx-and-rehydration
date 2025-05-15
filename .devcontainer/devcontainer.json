@@ -15,5 +15,6 @@
 				"python.analysis.inlayHints.callArgumentNames": "all"
 			}
 		}
-	}
+	},
+	"postCreateCommand": "pip install --no-cache-dir -r requirements.txt && pip install -e ./directline-lib"
 }

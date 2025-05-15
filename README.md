@@ -104,7 +104,7 @@ MSYS_NO_PATHCONV=1 docker run --rm \
     -i /local/openapi-specs/direct-line-3.0.json \
     -g python \
     -o /local/directline-lib \
-    --additional-properties "packageName=direct-line,projectName=direct-line,usePydanticV2=true"
+    --additional-properties "packageName=direct_line,projectName=direct_line,usePydanticV2=true"
 ```
 
 ```bash
@@ -114,14 +114,22 @@ pip install -e ./directline-lib
 ---
 
 
-## Connector API
+## Bot Connector API
 
 Use https://converter.swagger.io/#/Converter/convertByUrl to convert the Connector spec here: `https://raw.githubusercontent.com/Microsoft/botbuilder-dotnet/main/libraries/Swagger/ConnectorAPI.json`
 
-# Generate a Python client (Pydantic v2) from ConnectorAPISpec.json
-
-TBC
+```bash
+MSYS_NO_PATHCONV=1 docker run --rm \
+  --user "$(id -u):$(id -g)" \
+  -v "${PWD}:/local" \
+  openapitools/openapi-generator-cli generate \
+    -i /local/openapi-specs/botConnectorAPIv3-0.json \
+    -g python \
+    -o /local/botconnector-lib \
+    --additional-properties "packageName=bot_connector,projectName=bot_connector,usePydanticV2=true"
 ```
+
+---
 
 > *Step 2* → Open the repo in a **Dev Container** - this will automatically install the directline-client library (Automatically running `pip install -e ./directline_library` at the project root.`)
 
@@ -191,3 +199,18 @@ DIRECT_LINE_SECRET="YOUR_DIRECT_LINE_SECRET"
     2025-05-09 06:02:50,895  INFO  Transcript saved → data/conversation_activities/2XBN9G2DggXANWsMDBi5xm-au/20250509_060142_2XBN9G2DggXANWsMDBi5xm-au.json
     2025-05-09 06:02:50,896  INFO  Done.
     ```
+
+
+## Setting up Dataverse env variables:
+
+> 1. Grab your WEB_API_ENDPOINT + TENANTID in Power Platform Admin Center
+
+
+![Web API Endpoint](assets/environmenti-url.png)
+
+> 2. Grab your CLIENT_ID + CLIENT_SECRET in Azure Portal under App Registrations *Note: (Application ID is same as CLIENT_ID)*
+
+
+![Register app overview](assets/register-app-overview.png)
+
+![Register app get client secret](assets/get-client-secret.png)

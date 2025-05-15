@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataverse-api-cli"
+version = "0.1.0"
+description = "A command-line tool for interacting with Microsoft Dataverse API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "httpx>=0.20.0",
+    "msal>=1.18.0",
+    "python-dotenv>=0.19.0",
+    "rich>=12.0.0",
+    "pyyaml>=6.0",
+    "click>=8.0.0",
+]
+
+[project.scripts]
+dataverse-api = "dataverse_api_cli.cli:main"

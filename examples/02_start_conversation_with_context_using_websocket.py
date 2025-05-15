@@ -3,10 +3,10 @@ import json
 import logging
 import os
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Union, cast, Awaitable
+from typing import Any, Dict, List, Optional, Union, cast
 
 from dotenv import load_dotenv
-from websockets.client import connect as ws_connect
+from websockets.asyncio.client import connect as ws_connect
 from websockets.exceptions import (
     ConnectionClosedError,
     ConnectionClosedOK,
@@ -115,7 +115,7 @@ async def websocket_listener(
 
     try:
         async with ws_connect(
-            uri, extra_headers=headers, ping_interval=30, ping_timeout=30
+            uri, additional_headers=headers, ping_interval=30, ping_timeout=30
         ) as ws:
             logger.info("WebSocket connected ✔")
 
@@ -375,7 +375,7 @@ async def example_usage(user_input: str) -> None:
 
 
 if __name__ == "__main__":
-    # Potentially ask, "What page did we start this chat in?"
+    # Potentially ask, "Could you walk me through what I can do next on this page?"
     user_input: str = input("Enter a message to send to the bot: ")
     if not USER_ID:
         logger.critical("USER_ID environment variable not set. Please set it.")

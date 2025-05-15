@@ -1,6 +1,7 @@
 # prompts
 prompts/
 files_dump.txt
+examples/data/
 
 # specs
 openapi-specs/

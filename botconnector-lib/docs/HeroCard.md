@@ -1,0 +1,35 @@
+# HeroCard
+
+A Hero card (card with a single, large image)
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**title** | **str** | Title of the card | [optional] 
+**subtitle** | **str** | Subtitle of the card | [optional] 
+**text** | **str** | Text for the card | [optional] 
+**images** | [**List[CardImage]**](CardImage.md) | Array of images for the card | [optional] 
+**buttons** | [**List[CardAction]**](CardAction.md) | Set of actions applicable to the current card | [optional] 
+**tap** | [**CardAction**](CardAction.md) |  | [optional] 
+
+## Example
+
+```python
+from bot_connector.models.hero_card import HeroCard
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of HeroCard from a JSON string
+hero_card_instance = HeroCard.from_json(json)
+# print the JSON string representation of the object
+print(HeroCard.to_json())
+
+# convert the object into a dict
+hero_card_dict = hero_card_instance.to_dict()
+# create an instance of HeroCard from a dict
+hero_card_from_dict = HeroCard.from_dict(hero_card_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
