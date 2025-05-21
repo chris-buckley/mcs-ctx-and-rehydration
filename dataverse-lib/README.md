@@ -79,3 +79,7 @@ dataverse-api entity-definition get account
 ## License
 
 MIT
+
+## Other Resources
+
+- (Dataverse Samples)[https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/webapi/PS/README.md]

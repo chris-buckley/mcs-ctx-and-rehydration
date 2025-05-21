@@ -214,3 +214,12 @@ DIRECT_LINE_SECRET="YOUR_DIRECT_LINE_SECRET"
 ![Register app overview](assets/register-app-overview.png)
 
 ![Register app get client secret](assets/get-client-secret.png)
+
+
+
+Enable dataverse search to view in tables
+https://learn.microsoft.com/en-gb/power-platform/admin/configure-relevance-search-organization?tabs=new#set-up-dataverse-search
+
+![alt text](image.png)
+
+![alt text](image-1.png)
